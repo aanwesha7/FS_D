@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const BASE = "http://localhost:5000/api";
+const BASE = "https://fs-d-0rd3.onrender.com/api";
 
 // ─── helpers ────────────────────────────────────────────────────────────────
 const authHeader = (token) => ({ Authorization: `Bearer ${token}` });
